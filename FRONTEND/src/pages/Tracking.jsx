@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Navbar from '../Components/header/Navbar'; // Assuming you have a Navbar component
 
 function Tracking() {
   const [trackingId, setTrackingId] = useState('');
@@ -19,7 +18,6 @@ function Tracking() {
 
   return (
     <div className="flex flex-col h-screen w-screen">
-      <Navbar />
       <div className="flex-grow">
         <div className="h-full bg-cover bg-center" style={{ backgroundImage: "url('homepage.jpg')" }}>
           <div className="flex flex-col items-center justify-center h-full">
