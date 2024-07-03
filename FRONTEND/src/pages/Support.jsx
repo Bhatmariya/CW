@@ -50,7 +50,7 @@ function Support() {
         </div>
 
         {/* Question Form */}
-        <div className="bg-white p-6 rounded-lg shadow mb-6 w-1/3 h-1/3  mt-40 ml-4">
+        <div className="bg-white p-6 rounded-lg shadow mb-6 w-1/3 h-1/2 mt-40 ml-4">
           <h2 className="text-4xl font-semibold mb-4 mr-10 text-green-700">Any Query?</h2>
           <form onSubmit={handleSubmitQuestion}>
             <textarea
@@ -69,8 +69,8 @@ function Support() {
           </form>
         </div>
 
-        {/* Answer Form */}
-        <div className="bg-white p-6 rounded-lg shadow mb-6 w-1/3 h-1/3  mt-40 ml-4">
+        {/* Feedback Form */}
+        <div className="bg-white p-6 rounded-lg shadow mb-6 w-1/3 h-1/2  mt-40 ml-4">
           <h2 className="text-4xl font-semibold mb-4 text-green-700">Your Feedback</h2>
           <form onSubmit={handleSubmitAnswer}>
             <textarea
